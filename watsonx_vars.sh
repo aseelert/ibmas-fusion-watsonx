@@ -45,8 +45,8 @@ export PROJECT_CPD_INST_OPERANDS=watsonx-instance
 # -- ibm-spectrum-scale-sc
 # -- ibm-storage-fusion-cp-sc
 # IBM Storage Scale Container Native: ibm-spectrum-scale-sc
-export STG_CLASS_BLOCK=watsonx-default-storage
-export STG_CLASS_FILE=watsonx-default-storage
+export STG_CLASS_BLOCK=ocs-storagecluster-ceph-rbd
+export STG_CLASS_FILE=ocs-storagecluster-cephfs
 
 #------------------------------------------------------------------------------
 # IBM Entitled Registry
@@ -55,7 +55,7 @@ export IBM_ENTITLEMENT_KEY="eyJ0eXAiOiJKV1Qi"
 #------------------------------------------------------------------------------
 # Cloud Pak for Data version
 #------------------------------------------------------------------------------
-export VERSION=5.1.0
+export VERSION=5.1.1
 #------------------------------------------------------------------------------
 # Components
 #------------------------------------------------------------------------------
